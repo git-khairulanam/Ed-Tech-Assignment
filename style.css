@@ -19,6 +19,26 @@
   width: 60%;
 }
 
+/* subscribe  */
+.bg-color{
+  background-color: #289BDE;
+}
+
+/* feedback and rating  */
+.pts{
+  position: relative;
+}
+
+.rating{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.fa-star, .fa-star-half-stroke{
+  color: gold;
+}
+
 /* footer social icon  */
 .fa-square-facebook, .fa-linkedin, .fa-square-twitter{
   color: white;

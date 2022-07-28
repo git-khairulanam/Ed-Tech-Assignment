@@ -238,16 +238,37 @@
       <!-- section two end -->
 
       <!-- ready to join -->
-      <section id="sub-sec" class="container  bg-danger rounded-4 d-flex justify-content-center align-items-center" style="height: 300px;">
-        <div>
-          <h2>LET'S STAY IN TOUCH</h2>
-          <P>Get updates on sales specials and more</P>
-          <form>
-            <div class="mb-3">
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <section id="sub-sec" class="container  bg-color rounded-1 d-flex justify-content-center align-items-center" style="height: 200px;">
+        <div class="d-flex align-items-center">
+          <div class="w-75 text-white">
+            <h2 class="fw-bold">Ready to join?</h2>
+            <P>It is a long established fact that a reader will be distracted by the readable  content of a page when looking at its layout.</P>
+          </div>
+          <div class="w-25">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-light text-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+             Register Now
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Hi, there!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    If you want to register, Click register button now.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Register</button>
+                  </div>
+                </div>
+              </div>
             </div>
-            <button type="submit" class="btn btn-dark">Submit</button>
-          </form>
+          </div>
         </div>
         
       </section>
@@ -306,10 +327,56 @@
       <!-- successfull students sec end -->
 
       <!-- students feedback section start -->
-      <section>
+      <section class="container pt-5 pb-5">
         <div class="text-center">
           <h2 class="fw-bold">Some Students Feedback</h2>
           <p>It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+        </div>
+        <div>
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-6 border border-1 px-4 pt-4  rounded-3">
+              <div class="px-1 py-5 pts" style="height: 14rem; background-image: url(images/comma.png); background-repeat: no-repeat;">
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>The course was everything you said it would be, fun but a lot of work. And it was! I enjoyed the web-labs because they were a lot of fun and easy to understand. And the answers were usually somewhere in the text. I also liked the assignments that required us to get online.</p>
+                <div class="d-flex">
+                  <div>
+                    <img src="images/student/student-6.png" alt="">
+                  </div>
+                  <div class="ps-3">
+                    <h5 class="fw-bold mb-0">Shanta Akter</h5>
+                    <p>Graphics Designer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6 border border-1 px-4 pt-4  rounded-3">
+              <div class="px-1 py-5 pts" style="height: 14rem; background-image: url(images/comma.png); background-repeat: no-repeat;">
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>I really enjoyed the online course. I thought it was well planned and layed out, easy for me to follow. The work load(h.w. & test)was just enough, so i could finish everything with enough time, learn about the topics and not feel over loaded and rushed.</p>
+                <div class="d-flex">
+                  <div>
+                    <img src="images/student/student-5.png" alt="">
+                  </div>
+                  <div class="ps-3">
+                    <h5 class="fw-bold mb-0">Awlad Hossain</h5>
+                    <p>UI Designer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <!-- students feedback section end -->
