@@ -18,3 +18,10 @@
 .info{
   width: 60%;
 }
+
+/* footer social icon  */
+.fa-square-facebook, .fa-linkedin, .fa-square-twitter{
+  color: white;
+  height: 25px;
+  width: 25px;
+}
